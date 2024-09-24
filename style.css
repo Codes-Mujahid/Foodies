@@ -1,0 +1,240 @@
+*{
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* ============HEADER=========== */
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    padding: 0;
+}
+.header-section{
+    background-color: #f3fcf7;
+}
+.nav .active{
+    color: #06C167;
+}
+.nav a {
+    color: #1D1D1F;
+    text-decoration: none;
+    margin-left: 55px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.nav a:hover{
+    color: #06C167;
+    transition: .2s;
+}
+/* ============HERO SECTION=============== */
+.hero-section{
+    height: 100vh;
+    background-color: #f3fcf7;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.hero-text h1{
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 90px;
+}
+.hero-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.hero-text img {
+    margin-top: 100px;
+}
+.hero-img{
+    position: relative;
+}
+.hero-img .good-quality {
+    position: absolute;
+    top: 212px;
+    right: -55px;
+}
+.hero-img .ratings {
+    position: absolute;
+    left: -75px;
+    top: 323px;
+}
+.hero-img .dots {
+    position: absolute;
+    right: -45px;
+    bottom: -20px;
+}
+.default-btn {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    background: #06C167;
+    padding: 20px 50px;
+    border: none;
+    display: block;
+}
+.hero-btn i {
+    position: absolute;
+    left: 138px;
+    top: 24px;
+    color: #fff;
+}
+
+/* ======Features Section=========== */
+.feature-section{
+    padding: 100px 0;
+    background-color: #fff;
+}
+.feature-items {
+    border-top: 2px solid #eaeaea;
+    border-bottom: 2px solid #eaeaea;
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feature-items .items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.feature-items .item-text h4 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+.feature-items .item-text p{
+    margin: 0;
+}
+.feature-icon {
+    width: 70px;
+    height: 70px;
+}
+
+/* =========Benefit Section=========== */ 
+.benefit-section{
+    padding: 50px 0;
+    background-color: #fff;
+}
+.benefit {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+}
+
+.benefit-text h4{
+    font-weight: 500;
+    font-size: 15px;
+}
+.benefit-text h1{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 70px;
+    margin-bottom: 50px;
+}
+.benefit-list ul{
+    list-style: none;
+    padding-left: 0;
+}
+.benefit-list ul li {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}.benefit-list ul li i {
+    color: #06C167;
+    width: 26px;
+    font-size: 22px;
+}
+.benefit-text{
+    position: relative;
+}
+
+/* ==========Feature Section=========== */
+
+.food-section{
+    padding: 50px 0;
+}
+.food {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+.food-title{
+    text-align: center;
+}
+.food-title h4{
+    font-size: 15px;
+    font-weight: 500;
+}
+.food-title h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+.food-content {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    flex-wrap: wrap;
+}
+.food-content .food-lists {
+    width: 25%;
+    border: 1px solid #06C167;
+}
+.food-content .food-lists h2{
+    font-size: 32px;
+    font-weight: 500;
+}
+.food-content .food-lists p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.food-lists img {
+    width: 100%;
+    height: auto;
+}
+.food-text {
+    padding: 50px;
+    background: #F0F1EC;
+}
+
+
+/* ========Display Section======== */
+.display-section{
+    margin-top: 100px;
+}
+.display {
+background-image: url(./Images/Rectangle\ 8.png);
+padding: 200px 0;
+background-position: center center;
+background-size: contain;
+background-repeat: no-repeat;
+
+}
+.display-text{
+    text-align: center;
+}
+.display-text h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+    
+}
+.display-btn{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    background: #06C167;
+    padding: 20px 50px;
+    border: none;
+    display: block;
+}
